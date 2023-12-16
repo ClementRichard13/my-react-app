@@ -1,5 +1,5 @@
-const Title = () => {
-  return <h2>Voici un titre de niveau 2</h2>;
+const Title = (props) => {
+  return <h2 className={props.color}>{props.name}</h2>;
 };
 
 export default Title;
